@@ -1,38 +1,105 @@
+/*reset*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    max-width: 100%;
-}
 
-.container{
+/*header*/
+.nav-box{
     display: flex;
     justify-content: center;
     background-color: aqua;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    
 }
 .nav-top{
     width: 70%;
     margin-inline: auto;
+    padding: .5rem;
     display: flex;
     background-color: orange;
-    justify-content: space-between;
+    
+}
+.nav-space20{
+    width: 25%;
+}
+.nav-space40{
+    width: 50%;
 }
 
-.container2{
+.container{
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+}
+.jumbo-box{
     background-color: blue;
     display: flex;
     justify-content: center;
     height: 200px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    
 }
 
-.blocco{
+.jumbo{
     background-color: pink;
     width: 60%;
 }
+
+/*main*/
+
+.main-section{
+    display: flex;
+    max-width: 550px;
+    height: 200px;
+}
+
+.image-section{
+    background-color: cornflowerblue;
+    width: 40%;
+}
+
+.text-section{
+    background-color: pink;
+    width: 60%;
+}
+
+.bkg-darkgray{
+    background-color: darkgray;
+}
+
+.row-reverse{
+    flex-direction: row-reverse ;
+}
+
+.content{
+    background-color: green;
+    width: 100%;
+} 
+
+.bkg-dark{
+    margin-top: 1rem;
+    background-color: darkslategrey;
+    
+}
+
+.columns{
+    display: flex;
+    height: 200px;
+    max-width: 550px;
+    border-bottom: 2px solid gray;
+}
+
+.pinkcolumn{
+    background-color: salmon;
+    width: 40%;
+    border: 1px dashed darkslategrey;
+}
+
+.greencolumn{
+    background-color: green;
+    width: 15%;
+    border: 1px dashed white;
+}
+
+/*footer*/
+
