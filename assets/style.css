@@ -77,7 +77,7 @@
 } 
 
 .bkg-dark{
-    margin-top: 1rem;
+    
     background-color: darkslategrey;
     
 }
@@ -102,4 +102,24 @@
 }
 
 /*footer*/
+
+.nav-bottom{
+    display: flex;
+    background-color: lightseagreen;
+    width: 550px;
+    margin-inline: auto;
+    padding: .5rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-bottom: 2px solid gray;
+}
+
+.logo, .bottom{
+    background-color: salmon ;
+    
+}
+
+.fine{
+    border-bottom: 1px dashed darkslategrey;
+}
 
