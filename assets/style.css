@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.nav-top{
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+}
+
+.container2{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.blocco{
+    background-color: pink;
+    width: 60%;
+}
